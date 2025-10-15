@@ -15,6 +15,9 @@ const createTiles = quantity => {
     })
 }
 
+wrapper.style.setProperty("--columns", columns);
+wrapper.style.setProperty("--rows", rows);
+
 createTiles(columns * rows);
 
 const createGrid = () => {
